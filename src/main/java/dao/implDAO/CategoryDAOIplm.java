@@ -1,10 +1,9 @@
-package DAO.implDAO;
+package dao.implDAO;
 
-import DAO.CategoryDAO;
+import dao.CategoryDAO;
 import mapper.mapperImpl.CategoryMapper;
 import model.request.CategoryRequest;
 
-import java.sql.*;
 import java.util.List;
 
 public class CategoryDAOIplm extends GenericDAOImpl<CategoryRequest> implements CategoryDAO {
@@ -32,7 +31,7 @@ public class CategoryDAOIplm extends GenericDAOImpl<CategoryRequest> implements 
 
     @Override
     public Long insert(CategoryRequest categoryRequest) {
-        String sql = "insert into category(id,name,code,createddate,modifieddate,createby,modifiedby)" +
+        String sql = "insert into category(id,name,code,created_date,modified_date,created_by,modified_by)" +
                 " values (?,?,?,?,?,?,?)";
         Long id = insert(sql, categoryRequest.getId(), categoryRequest.getName(), categoryRequest.getCode(),
                 categoryRequest.getCreatedDate(), categoryRequest.getModifiedDate(),
@@ -51,8 +50,8 @@ public class CategoryDAOIplm extends GenericDAOImpl<CategoryRequest> implements 
     @Override
     public void update(CategoryRequest categoryRequest) {
         String sql = " update category " +
-                "set name = ?, code = ?, createddate = ?, modifieddate = ?, " +
-                "createby = ?, modifiedby = ? where id = ?";
+                "set name = ?, code = ?, created_date = ?, modified_date = ?, " +
+                "created_by = ?, modified_by = ? where id = ?";
         update(sql,  categoryRequest.getName(), categoryRequest.getCode(),
                 categoryRequest.getCreatedDate(), categoryRequest.getModifiedDate(),
                 categoryRequest.getCreatedBy(), categoryRequest.getModifiedBy(),categoryRequest.getId());

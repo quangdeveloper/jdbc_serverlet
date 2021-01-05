@@ -1,6 +1,6 @@
 package services.implServices;
 
-import DAO.implDAO.CategoryDAOIplm;
+import dao.implDAO.CategoryDAOIplm;
 import model.request.CategoryRequest;
 import services.CategoryServices;
 

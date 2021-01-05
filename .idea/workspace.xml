@@ -2,14 +2,61 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ServletJDBC:war exploded" />
+      <artifact name="jdbc_serverlet:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="802b7891-1a73-477f-9330-90719312b9a5" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="802b7891-1a73-477f-9330-90719312b9a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resource/Properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CommentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/ConnectSQLDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ConnectSQLDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/NewsDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/RoleDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/implDAO/CategoryDAOIplm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/implDAO/CategoryDAOIplm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/implDAO/CommentDAOIplm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/implDAO/ConnetSQLDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/implDAO/ConnetSQLDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/implDAO/GenericDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/implDAO/GenericDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/implDAO/NewsDAOIplm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/implDAO/RoleDAOIplm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/implDAO/UserDAOIplm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/user/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/user/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/request/CommentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/request/NewsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/request/RoleRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/request/UserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/CommentServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/NewsServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/RoleServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/UserServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/implServices/CategoryServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/implServices/CategoryServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/implServices/CommentServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/implServices/NewsServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/implServices/RoleServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/implServices/UserSrvicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/CategoryDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/CategoryDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/ConnectSQLDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/ConnectSQLDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/GenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/implDAO/CategoryDAOIplm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/implDAO/CategoryDAOIplm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/implDAO/ConnetSQLDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/implDAO/ConnetSQLDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/implDAO/GenericDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/DAO/implDAO/GenericDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/controller/admin/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/controller/admin/Home.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/controller/user/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/controller/user/Home.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/services/implServices/CategoryServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-JDBC-1.0-SNAPSHOT/WEB-INF/classes/services/implServices/CategoryServicesImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,108 +100,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2046">
-              <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/admin/Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/implDAO/CategoryDAOIplm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/implDAO/GenericDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/implDAO/ConnetSQLDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/test.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -163,6 +108,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -228,13 +176,6 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -257,6 +198,7 @@
     <option name="width" value="440" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectId" id="1lUWI1Evj9uBeeVfk8lHHRhftKS" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -394,8 +336,15 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -418,25 +367,13 @@
       <recent name="controller.user" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.43">
+  <component name="RunManager" selected="Tomcat Server.apache-tomcat-9.0.40">
     <configuration name="vbfbf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DAO.implDAO.vbfbf" />
       <module name="ServletJDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAO.implDAO.*" />
+          <option name="PATTERN" value="dao.implDAO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,13 +381,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+    <configuration name="apache-tomcat-9.0.40" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="apache-tomcat-9.0.40" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../Program Files/Java/jdk-15.0.1" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jdbc_serverlet_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ServletJDBC:war exploded">
+        <artifact name="jdbc_serverlet:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="" />
+            <option name="CONTEXT_PATH" value="/jdbc_serverlet_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -495,6 +432,21 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -513,16 +465,21 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ServletJDBC:war exploded" />
+          <artifact name="jdbc_serverlet:war exploded" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.vbfbf" />
+      <item itemvalue="Tomcat Server.apache-tomcat-9.0.40" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.vbfbf" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -555,6 +512,20 @@
       <workItem from="1605758949367" duration="761000" />
       <workItem from="1606268075341" duration="1145000" />
       <workItem from="1606730808050" duration="156000" />
+      <workItem from="1607652068979" duration="2469000" />
+      <workItem from="1607683193869" duration="53000" />
+      <workItem from="1608010376905" duration="1486000" />
+      <workItem from="1608013954877" duration="829000" />
+      <workItem from="1608189054201" duration="307000" />
+      <workItem from="1608622190484" duration="624000" />
+      <workItem from="1608687313399" duration="5657000" />
+      <workItem from="1608715752643" duration="594000" />
+      <workItem from="1609119250818" duration="626000" />
+      <workItem from="1609755789151" duration="1940000" />
+      <workItem from="1609810844092" duration="1332000" />
+      <workItem from="1609814505089" duration="183000" />
+      <workItem from="1609814836834" duration="10000" />
+      <workItem from="1609820438392" duration="14000" />
     </task>
     <servers />
   </component>
@@ -646,7 +617,19 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

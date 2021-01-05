@@ -1,6 +1,6 @@
-package DAO.implDAO;
+package dao.implDAO;
 
-import DAO.GenericDAO;
+import dao.GenericDAO;
 import mapper.RowMapper;
 
 import java.sql.*;
@@ -29,10 +29,10 @@ public class GenericDAOImpl<T> extends ConnetSQLDAOImpl implements GenericDAO<T>
             return null;
         } finally {
             close(connection, statement, resultSet);
-            return null;
         }
     }
-// dung  khi update va delete du lieu tren bang
+
+    // dung  khi update va delete du lieu tren bang
     @Override
     public void update(String sql, Object... parameter) {
         Connection connection = null;
@@ -45,18 +45,16 @@ public class GenericDAOImpl<T> extends ConnetSQLDAOImpl implements GenericDAO<T>
             statement.executeUpdate();
             connection.commit();
         } catch (SQLException ex) {
-            if (connection != null) {
-                try {
-                    connection.rollback();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+            try {
+                connection.rollback();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
+
         } finally {
             close(connection, statement, null);
         }
     }
-
 
 
     //dung cho insert du lieu vao bang
@@ -79,12 +77,10 @@ public class GenericDAOImpl<T> extends ConnetSQLDAOImpl implements GenericDAO<T>
             connection.commit();
             return id;
         } catch (SQLException ex) {
-            if (connection != null) {
-                try {
-                    connection.rollback();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+            try {
+                connection.rollback();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
             return null;
         } finally {
